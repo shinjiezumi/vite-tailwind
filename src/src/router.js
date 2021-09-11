@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from './pages/Home.vue';
-import Hoge from './pages/Hoge.vue';
+import Form from './pages/Form.vue';
 
 const routes = [
   {
@@ -9,9 +9,9 @@ const routes = [
     component: Home,
   },
   {
-    path: '/hoge',
-    name: 'Hoge',
-    component: Hoge,
+    path: '/form',
+    name: 'Form',
+    component: Form,
   },
 ];
 const router = createRouter({
