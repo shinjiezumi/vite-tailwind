@@ -7,9 +7,16 @@
       <ul class="list-disc">
         <li class="mt-2">
           <router-link
+            to="/grid"
+          >
+            Grid
+          </router-link>
+        </li>
+        <li class="mt-2">
+          <router-link
             to="/form"
           >
-            form
+            Form
           </router-link>
         </li>
       </ul>
