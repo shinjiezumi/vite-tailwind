@@ -19,6 +19,13 @@
             Form
           </router-link>
         </li>
+        <li class="mt-2">
+          <router-link
+            to="/button"
+          >
+            Button
+          </router-link>
+        </li>
       </ul>
     </div>
   </div>
