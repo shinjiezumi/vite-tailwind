@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  display: inline-block;
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247,250,252,var(--bg-opacity));
+  border-radius: .125rem;
+  font-size: .875rem;
+  padding-left: .25rem;
+  padding-right: .25rem;
+  line-height: 1;
+  white-space: nowrap;
+  --text-opacity: 1;
+  font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
+  vertical-align: baseline;
+  font-weight: 400
+}
